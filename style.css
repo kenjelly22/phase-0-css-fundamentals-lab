@@ -4,7 +4,9 @@ body {
   margin: 0;
 }
 
-section#featured-property {
+section#featured-property,
+nav,
+h1 {
   text-align: center;
 }
 
@@ -15,5 +17,17 @@ section#featured-property {
 }
 
 figcaption {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+nav a {
+  padding: 10px;
+  background-color: lightcoral;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: coral;
 }
